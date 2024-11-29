@@ -1,5 +1,9 @@
 # GAT-ASD
 The code for constructing the entire graphs and the model code have been open-sourced. 
+
+## Dependency
+We used python=3.7, pytorch=1.13.1, and torch-geometric=2.3.1 in our experiments.
+
 ## Data Preparation
 1) Download the FisheyeMeeting audio-visual features, the annotation csv files and the SOTA model from [Google Drive](https://drive.google.com/drive/folders/1fYALbElvIKjqeS8uGTHSeqtOhA6FXuRi?usp=sharing). The directories should look like as follows:
 ```
@@ -27,3 +31,5 @@ you can perform evaluation with the best model using the command：
 ```
 python train_val.py --evaluation
 ```
+### Acknowledgments
+Thanks for the support of Min, Kyle's open source [repository](https://github.com/SRA2/SPELL) for this research.
