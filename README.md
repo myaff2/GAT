@@ -5,7 +5,7 @@ The code for constructing the entire graphs and the model code have been open-so
 We used python=3.7, pytorch=1.13.1, and torch-geometric=2.3.1 in our experiments.
 
 ## Data Preparation
-1) Download the FisheyeMeeting audio-visual features, the annotation csv files and the SOTA model from [Google Drive](https://drive.google.com/drive/folders/1fYALbElvIKjqeS8uGTHSeqtOhA6FXuRi?usp=sharing). The directories should look like as follows:
+1) Download the FisheyeMeeting audio-visual features, the annotation csv files and the SOTA model from [Google Drive](https://drive.google.com/file/d/1qlnYE22iqaWD9UKwV1JrF3SRi0HxepBn/view?usp=drive_link). The directories should look like as follows:
 ```
 |-- features
     |-- FisheyeMeeting
